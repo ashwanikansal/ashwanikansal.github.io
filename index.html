@@ -1,82 +1,181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ashwani Kansal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Ashwani Kansal</h1>
+      <div class="contact-links">
+        <a href="tel:+919996659688"> <span>📞</span> +91-9996659688 </a>
 
-<header>
-    <h1>Ashwani Kansal</h1>
-    <p>AI Engineer | Generative AI | RAG Systems</p>
-</header>
+        <a href="mailto:ashwanikansal.dev@gmail.com">
+          <span>📧</span> ashwanikansal.dev@gmail.com
+        </a>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        AI Engineer with strong experience in Generative AI, machine learning, and data pipelines.
-        I build production-grade LLM applications, RAG systems, and scalable AI solutions.
-    </p>
-</section>
+        <a href="https://www.linkedin.com/in/ashwani-kansal/" target="_blank">
+          <span>🔗</span> LinkedIn
+        </a>
 
-<section>
-    <h2>Experience</h2>
+        <a href="https://github.com/ashwanikansal" target="_blank">
+          <span>💻</span> GitHub
+        </a>
+      </div>
+    </header>
 
-    <div class="card">
-        <h3>Data Scientist – Genpact</h3>
-        <p>Oct 2024 – Present</p>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        AI Engineer with strong experience in Generative AI, machine learning,
+        and data pipelines, building production-grade LLM applications, RAG
+        systems, and ML workflows using Python, LangChain, and vector databases.
+        Experienced in end-to-end AI delivery including data ingestion, feature
+        engineering, model evaluation, and API-based deployment, enabling
+        scalable, enterprise AI solutions for real-world business use.
+      </p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="card">
+        <div class="liner">
+          <h3>Data Scientist</h3>
+          <p>Oct 2024 - Present</p>
+        </div>
+        <div class="liner italics">
+          <p>Genpact</p>
+          <p>Bengaluru, India</p>
+        </div>
         <ul>
-            <li>Built LLM-powered document intelligence pipeline reducing manual effort</li>
-            <li>Designed RAG pipelines using FAISS</li>
-            <li>Developed FastAPI microservices for scalable AI systems</li>
+          <li>
+            Built an LLM-powered document intelligence pipeline using OpenAI,
+            LangChain, and embeddings, enabling semantic deduplication and
+            consolidation across 20-50 unstructured documents and reducing
+            manual review time.
+          </li>
+          <li>
+            Designed RAG pipelines with FAISS and transformer-based models,
+            improving semantic retrieval accuracy and enabling reliable Q&A over
+            unstructured enterprise data.
+          </li>
+          <li>
+            Developed FastAPI microservices for document ingestion, chunking,
+            vector search, and LLM inference, allowing scalable reuse of GenAI
+            capabilities across internal teams.
+          </li>
+          <li>
+            Applied prompt engineering strategies and LLM reasoning techniques
+            to standardize language, generate topic structures, and produce
+            clean, consistent summary documents.
+          </li>
+          <li>
+            Supported analytics workflows by optimizing PySpark transformations
+            and Databricks jobs, improving pipeline reliability and governance
+            using Delta Tables and Unity Catalog.
+          </li>
         </ul>
-    </div>
+      </div>
 
-    <div class="card">
-        <h3>Intern – Genpact</h3>
-        <p>Feb 2024 – July 2024</p>
+      <div class="card">
+        <div class="liner">
+          <h3>Intern</h3>
+          <p>Feb 2024 - July 2024</p>
+        </div>
+        <div class="liner italics">
+          <p>Genpact</p>
+          <p>Bengaluru, India</p>
+        </div>
         <ul>
-            <li>Built AWS-based healthcare data lake</li>
-            <li>Automated ETL pipelines using Airflow</li>
-            <li>Integrated MLflow for tracking experiments</li>
+          <li>
+            Designed an AWS-based healthcare data lake (S3) for structured and
+            unstructured medical data, enabling scalable ingestion for
+            downstream ML applications.
+          </li>
+          <li>
+            Built ETL workflows using Apache Airflow to automate ingestion and
+            preprocessing, improving data availability and reducing manual
+            pipeline maintenance.
+          </li>
+          <li>
+            Integrated MLflow for experiment tracking and model evaluation,
+            improving reproducibility across ML workflows.
+          </li>
+          <li>
+            Performed EDA using Pandas and Matplotlib to derive insights and
+            support model development.
+          </li>
         </ul>
-    </div>
+      </div>
+    </section>
 
-</section>
+    <section>
+      <h2>Projects</h2>
 
-<section>
-    <h2>Projects</h2>
+      <div class="card">
+        <div class="liner">
+          <h3>TubeRAG Assistant</h3>
+          <a href="https://github.com/ashwanikansal/tuberag" target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+        <div class="liner italics">
+          <p>
+            Python, FastAPI, LangChain, FAISS, LLaMA, YouTube Transcript API
+          </p>
+        </div>
+        <ul>
+          <li>
+            Built an end-to-end Retrieval-Augmented Generation (RAG) pipeline
+            that enables natural-language Q&A over long YouTube videos by
+            automating transcript extraction, chunking, embedding generation,
+            and semantic search.
+          </li>
+          <li>
+            Developed FastAPI services for embedding generation, vector search,
+            and LLM-based answer synthesis, reducing response latency and
+            enabling scalable backend integration.
+          </li>
+          <li>
+            Engineered an MV3 Chrome Extension with a floating chat UI,
+            background workers, and SPA-safe messaging, allowing users to query
+            video content without leaving YouTube.
+          </li>
+          <li>
+            Integrated FAISS for vector retrieval and optimized chunking
+            strategies to improve semantic search relevance and reduce
+            hallucinations in long-context Q&A.
+          </li>
+          <li>
+            Delivered a practical tool that enables users to extract insights
+            from hours of video content in seconds, improving knowledge access
+            and speeding up content understanding.
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="card">
-        <h3>TubeRAG Assistant</h3>
-        <p>
-            Built a RAG-based system for querying YouTube videos using LLMs, FAISS, and FastAPI.
-        </p>
-    </div>
-
-</section>
-
-<section>
-    <h2>Skills</h2>
-    <p>
+    <section>
+      <h2>Skills</h2>
+      <p>
         LangChain, RAG, OpenAI API, FAISS, FastAPI, PySpark, AWS, MLflow, Docker
-    </p>
-</section>
+      </p>
+    </section>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: ashwanikansal.dev@gmail.com</p>
-    <p>
+    <section>
+      <h2>Contact</h2>
+      <p>Email: ashwanikansal.dev@gmail.com</p>
+      <p>
         <a href="#">LinkedIn</a> |
         <a href="#">GitHub</a>
-    </p>
-</section>
+      </p>
+    </section>
 
-<footer>
-    <p>© 2026 Ashwani Kansal</p>
-</footer>
-
-</body>
+    <footer>
+      <p>© 2026 Ashwani Kansal</p>
+    </footer>
+  </body>
 </html>
