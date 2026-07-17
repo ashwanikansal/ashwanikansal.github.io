@@ -3,179 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashwani Kansal</title>
+    <title>Ashwani Kansal — AI Engineer</title>
+    <meta
+      name="description"
+      content="Ashwani Kansal — AI Engineer specializing in agentic AI, LLM applications, and RAG systems."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Ashwani Kansal</h1>
-      <div class="contact-links">
-        <a href="tel:+919996659688"> <span>📞</span> +91-9996659688 </a>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-        <a href="mailto:ashwanikansal.dev@gmail.com">
-          <span>📧</span> ashwanikansal.dev@gmail.com
+    <!-- ============ NAV ============ -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#top">
+          <span class="dot"></span>
+          <span id="brand-name">ashwani.dev</span>
         </a>
 
-        <a href="https://www.linkedin.com/in/ashwani-kansal/" target="_blank">
-          <span>🔗</span> LinkedIn
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#terminal">Terminal</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" type="button">
+            <svg class="icon" id="theme-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+          <a class="nav-cta" href="Resume.pdf" target="_blank" rel="noopener">Résumé ↓</a>
+          <button class="nav-burger" id="nav-burger" aria-label="Toggle menu" type="button">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <header class="hero" id="top">
+        <div class="hero-blobs" aria-hidden="true">
+          <div class="blob b1"></div>
+          <div class="blob b2"></div>
+          <div class="blob b3"></div>
+        </div>
+
+        <div class="container">
+          <p class="eyebrow"><span class="pulse"></span> Open to opportunities</p>
+          <h1>Hi, I'm <span class="gradient-text" id="hero-name">Ashwani Kansal</span></h1>
+          <p class="role-line"><span id="typewriter"></span><span class="caret"></span></p>
+          <p class="tagline" id="hero-tagline">Loading…</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">See my work</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+
+          <div class="social-row" id="hero-socials"></div>
+        </div>
+
+        <a class="scroll-cue" href="#about" aria-label="Scroll to content">
+          <span class="line"></span> scroll
         </a>
+      </header>
 
-        <a href="https://github.com/ashwanikansal" target="_blank">
-          <span>💻</span> GitHub
-        </a>
-      </div>
-    </header>
+      <!-- ============ ABOUT ============ -->
+      <section id="about">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">01</span>
+            <h2>About</h2>
+          </div>
 
-    <section>
-      <h2>Professional Summary</h2>
-      <p>
-        AI Engineer with strong experience in Generative AI, machine learning,
-        and data pipelines, building production-grade LLM applications, RAG
-        systems, and ML workflows using Python, LangChain, and vector databases.
-        Experienced in end-to-end AI delivery including data ingestion, feature
-        engineering, model evaluation, and API-based deployment, enabling
-        scalable, enterprise AI solutions for real-world business use.
-      </p>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-
-      <div class="card">
-        <div class="liner">
-          <h3>Data Scientist</h3>
-          <p>Oct 2024 - Present</p>
+          <div class="about-grid">
+            <p class="summary-text reveal" id="summary-text">Loading…</p>
+            <div class="stat-grid reveal" id="stat-grid"></div>
+          </div>
         </div>
-        <div class="liner italics">
-          <p>Genpact</p>
-          <p>Bengaluru, India</p>
-        </div>
-        <ul>
-          <li>
-            Built an LLM-powered document intelligence pipeline using OpenAI,
-            LangChain, and embeddings, enabling semantic deduplication and
-            consolidation across 20-50 unstructured documents and reducing
-            manual review time.
-          </li>
-          <li>
-            Designed RAG pipelines with FAISS and transformer-based models,
-            improving semantic retrieval accuracy and enabling reliable Q&A over
-            unstructured enterprise data.
-          </li>
-          <li>
-            Developed FastAPI microservices for document ingestion, chunking,
-            vector search, and LLM inference, allowing scalable reuse of GenAI
-            capabilities across internal teams.
-          </li>
-          <li>
-            Applied prompt engineering strategies and LLM reasoning techniques
-            to standardize language, generate topic structures, and produce
-            clean, consistent summary documents.
-          </li>
-          <li>
-            Supported analytics workflows by optimizing PySpark transformations
-            and Databricks jobs, improving pipeline reliability and governance
-            using Delta Tables and Unity Catalog.
-          </li>
-        </ul>
-      </div>
+      </section>
 
-      <div class="card">
-        <div class="liner">
-          <h3>Intern</h3>
-          <p>Feb 2024 - July 2024</p>
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">02</span>
+            <h2>Experience</h2>
+          </div>
+          <div class="timeline" id="timeline"></div>
         </div>
-        <div class="liner italics">
-          <p>Genpact</p>
-          <p>Bengaluru, India</p>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">03</span>
+            <h2>Projects</h2>
+          </div>
+          <div class="project-grid" id="project-grid"></div>
         </div>
-        <ul>
-          <li>
-            Designed an AWS-based healthcare data lake (S3) for structured and
-            unstructured medical data, enabling scalable ingestion for
-            downstream ML applications.
-          </li>
-          <li>
-            Built ETL workflows using Apache Airflow to automate ingestion and
-            preprocessing, improving data availability and reducing manual
-            pipeline maintenance.
-          </li>
-          <li>
-            Integrated MLflow for experiment tracking and model evaluation,
-            improving reproducibility across ML workflows.
-          </li>
-          <li>
-            Performed EDA using Pandas and Matplotlib to derive insights and
-            support model development.
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <h2>Projects</h2>
-
-      <div class="card">
-        <div class="liner">
-          <h3>TubeRAG Assistant</h3>
-          <a href="https://github.com/ashwanikansal/tuberag" target="_blank"
-            >View on GitHub</a
-          >
+      <!-- ============ SKILLS ============ -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">04</span>
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-grid" id="skills-grid"></div>
         </div>
-        <div class="liner italics">
-          <p>
-            Python, FastAPI, LangChain, FAISS, LLaMA, YouTube Transcript API
-          </p>
+      </section>
+
+      <!-- ============ EDUCATION + CERTS ============ -->
+      <section id="education">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">05</span>
+            <h2>Education</h2>
+          </div>
+          <div id="edu-container"></div>
+          <div class="cert-row" id="cert-row"></div>
         </div>
-        <ul>
-          <li>
-            Built an end-to-end Retrieval-Augmented Generation (RAG) pipeline
-            that enables natural-language Q&A over long YouTube videos by
-            automating transcript extraction, chunking, embedding generation,
-            and semantic search.
-          </li>
-          <li>
-            Developed FastAPI services for embedding generation, vector search,
-            and LLM-based answer synthesis, reducing response latency and
-            enabling scalable backend integration.
-          </li>
-          <li>
-            Engineered an MV3 Chrome Extension with a floating chat UI,
-            background workers, and SPA-safe messaging, allowing users to query
-            video content without leaving YouTube.
-          </li>
-          <li>
-            Integrated FAISS for vector retrieval and optimized chunking
-            strategies to improve semantic search relevance and reduce
-            hallucinations in long-context Q&A.
-          </li>
-          <li>
-            Delivered a practical tool that enables users to extract insights
-            from hours of video content in seconds, improving knowledge access
-            and speeding up content understanding.
-          </li>
-        </ul>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <h2>Skills</h2>
-      <p>
-        LangChain, RAG, OpenAI API, FAISS, FastAPI, PySpark, AWS, MLflow, Docker
-      </p>
-    </section>
+      <!-- ============ TERMINAL EASTER EGG ============ -->
+      <section id="terminal">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="index">06</span>
+            <h2>Or just ask</h2>
+          </div>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email: ashwanikansal.dev@gmail.com</p>
-      <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a>
-      </p>
-    </section>
+          <div class="terminal reveal" id="terminal-widget">
+            <div class="terminal-bar">
+              <span class="tdot red"></span>
+              <span class="tdot yellow"></span>
+              <span class="tdot green"></span>
+              <span class="tname">guest@ashwani-kansal: ~</span>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+              <p class="line out">Welcome. Type a command, or click one below.</p>
+              <p class="line hint">Try: whoami · skills · experience · contact · sudo hire-me · help</p>
+            </div>
+            <div class="terminal-chips">
+              <button type="button" data-cmd="whoami">whoami</button>
+              <button type="button" data-cmd="skills">skills</button>
+              <button type="button" data-cmd="experience">experience</button>
+              <button type="button" data-cmd="contact">contact</button>
+              <button type="button" data-cmd="sudo hire-me">sudo hire-me</button>
+            </div>
+            <div class="terminal-input-row">
+              <span class="prompt-sym">❯</span>
+              <input
+                type="text"
+                id="terminal-input"
+                autocomplete="off"
+                spellcheck="false"
+                aria-label="Terminal command input"
+                placeholder="type a command…"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact">
+        <div class="container">
+          <div class="contact-panel reveal">
+            <h2>Let's build something.</h2>
+            <p>
+              Open to AI Engineer roles at product-focused teams. The fastest way to reach me is
+              email — I usually reply within a day.
+            </p>
+            <div class="contact-methods" id="contact-methods"></div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
-      <p>© 2026 Ashwani Kansal</p>
+      <span id="footer-text">© 2026 Ashwani Kansal</span>
+      <a class="back-to-top" href="#top">
+        <svg class="icon" viewBox="0 0 24 24" style="width:14px;height:14px"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+        Back to top
+      </a>
     </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js" defer></script>
   </body>
 </html>

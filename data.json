@@ -1,0 +1,151 @@
+{
+  "personal_information": {
+    "name": "Ashwani Kansal",
+    "phone": "+91-9996659688",
+    "email": "ashwanikansal.dev@gmail.com",
+    "linkedin": {
+      "text": "LinkedIn Profile",
+      "url": "https://linkedin.com/in/ashwani-kansal"
+    },
+    "github": {
+      "text": "Github Profile",
+      "url": "https://github.com/ashwanikansal"
+    }
+  },
+
+  "professional_summary": "AI Engineer specializing in agentic AI, LLM application development, and Generative AI systems, building production-grade RAG pipelines, multi-agent workflows (LangChain, LangGraph, MCP), and LLM-powered automation using Python, Anthropic Claude, and OpenAI APIs. Experienced across the full AI delivery lifecycle, from data pipelines and retrieval systems to agentic tool integration and scalable API-based deployment for enterprise and product use cases.",
+
+  "education": [
+    {
+      "institution": "National Institute of Technology, Kurukshetra",
+      "location": "Kurukshetra, India",
+      "degree": "Masters in Computer Applications",
+      "cgpa": "9.0",
+      "duration": {
+        "start": "2021",
+        "end": "2024"
+      }
+    }
+  ],
+
+  "experience": [
+    {
+      "designation": "AI/LLM Application Engineer",
+      "company": "Pride Global",
+      "location": "Bengaluru (Hybrid)",
+      "duration": {
+        "start": "May 2026",
+        "end": "Present"
+      },
+      "responsibilities": [
+        "Building an onboarding automation platform using LangGraph-based agentic workflows to orchestrate document processing and system integrations across JobDiva, Microsoft Graph API, and MongoDB, reducing manual onboarding effort.",
+        "Integrating Microsoft Azure Document Intelligence for automated extraction and validation of onboarding documents, improving data accuracy and processing speed.",
+        "Accelerating agentic workflow development using Claude Code and the Anthropic API, enabling rapid iteration on LLM-driven automation.",
+        "Mentoring intern engineers building RAG-based document Q&A tools on local LLMs served via Ollama, enabling privacy-preserving, on-prem inference.",
+        "Guided an intern-led MCP (Model Context Protocol) server project that let users upload documents and query them through the Claude Desktop app as the MCP client."
+      ]
+    },
+    {
+      "designation": "AI Engineer",
+      "company": "Genpact",
+      "location": "Bengaluru",
+      "duration": {
+        "start": "October 2024",
+        "end": "December 2025"
+      },
+      "responsibilities": [
+        "Built an LLM-powered document intelligence pipeline using OpenAI, LangChain, and embeddings, enabling semantic deduplication and consolidation across 20–50 unstructured documents and reducing manual review time.",
+        "Designed RAG pipelines with FAISS and transformer-based models, improving semantic retrieval accuracy and enabling reliable Q&A over unstructured enterprise data.",
+        "Developed FastAPI microservices for document ingestion, chunking, vector search, and LLM inference, enabling scalable reuse of GenAI capabilities across internal teams.",
+        "Optimized PySpark transformations and Databricks jobs, improving pipeline reliability and governance using Delta Tables and Unity Catalog."
+      ]
+    },
+    {
+      "designation": "AI Engineer Intern",
+      "company": "Genpact",
+      "location": "Bengaluru",
+      "duration": {
+        "start": "February 2024",
+        "end": "July 2024"
+      },
+      "responsibilities": [
+        "Designed an AWS-based healthcare data lake (S3) for structured and unstructured medical data, enabling scalable ingestion for downstream ML applications.",
+        "Built ETL workflows using Apache Airflow to automate ingestion and preprocessing, reducing manual pipeline maintenance.",
+        "Integrated MLflow for experiment tracking and model evaluation, improving reproducibility across ML workflows."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "TubeRAG Assistant",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "FAISS",
+        "LLaMA",
+        "YouTube Transcript API"
+      ],
+      "github": {
+        "text": "Github Link",
+        "url": "https://github.com/ashwanikansal/tubeRAG_assistant"
+      },
+      "description": [
+        "Built an end-to-end RAG pipeline enabling natural-language Q&A over long YouTube videos via automated transcript extraction, chunking, embedding generation, and semantic search, delivered through an MV3 Chrome Extension.",
+        "Developed FastAPI services for embedding generation, vector search, and LLM-based answer synthesis, reducing response latency and enabling scalable backend integration."
+      ]
+    }
+  ],
+
+  "skills": {
+    "Agentic AI Frameworks": [
+      "LangChain",
+      "LangGraph",
+      "Multi-Agent Systems",
+      "MCP (Model Context Protocol)",
+      "Claude Code"
+    ],
+    "GenAI & NLP": [
+      "RAG Pipelines",
+      "OpenAI API",
+      "Anthropic API",
+      "Embeddings",
+      "FAISS",
+      "Ollama",
+      "Prompt Engineering"
+    ],
+    "Machine Learning & Data": [
+      "scikit-learn",
+      "TensorFlow/Keras",
+      "MLflow",
+      "Feature Engineering",
+      "Model Evaluation"
+    ],
+    "Data Engineering": [
+      "FastAPI",
+      "Python",
+      "PySpark",
+      "SparkSQL",
+      "Databricks",
+      "Delta Tables",
+      "Airflow"
+    ],
+    "Integrations & APIs": [
+      "MongoDB",
+      "Microsoft Graph API",
+      "Azure Document Intelligence"
+    ],
+    "Cloud & DevOps": [
+      "AWS (S3, EC2, Lambda)",
+      "Docker",
+      "Git",
+      "SQL",
+      "NoSQL",
+      "Vector Stores",
+      "CI/CD"
+    ]
+  },
+
+  "certifications": ["Databricks Certified Data Engineer Professional"]
+}
